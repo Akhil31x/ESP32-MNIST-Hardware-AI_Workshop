@@ -1,0 +1,23 @@
+# ==============================================================================
+#  VSDSquadron FM Kit — Physical Constraint File (.pcf)
+#  Target: Lattice iCE40UP5K (SG48 package)
+#  Board:  VSDSquadron FM (FPGA Mini)
+# ==============================================================================
+
+# --- Hardware Clock (Optional External 12 MHz oscillator) ---
+set_io hw_clk       20
+
+# --- User Push Buttons / Switches ---
+set_io sw0          9
+set_io sw1          10
+
+# --- Discrete Board LEDs (Active-Low) ---
+set_io led0         13
+set_io led1         18
+set_io led2         19
+set_io led3         21
+
+# --- Onboard High-Current RGB LED Driver Pins ---
+set_io led_red      39
+set_io led_blue     40
+set_io led_green    41
